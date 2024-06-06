@@ -1,6 +1,8 @@
 import pymongo
 import back.config as config
 import random
+from pymongo import MongoClient
+
 
 # Connexion à MongoDB
 client = pymongo.MongoClient(config.mongo_uri)
@@ -62,3 +64,8 @@ def get_all_users():
         print(f"Name: {user['name']}")
         print(f"Favorite Songs: {user['favorite_songs']}")
         print("---------------")
+
+
+
+
+
