@@ -48,7 +48,7 @@ def main():
         pygame.draw.rect(screen, GRAY, (SCREEN_WIDTH // 2 - 150, 200, 100, 40))
         draw_text("Login", font, BLACK, screen, SCREEN_WIDTH // 2 - 100, 220)
         pygame.draw.rect(screen, GREEN, (SCREEN_WIDTH // 2 + 50, 200, 150, 40))
-        draw_text("Créer un compte", font, BLACK, screen, SCREEN_WIDTH // 2 + 125, 220)
+        draw_text("Inscription", font, BLACK, screen, SCREEN_WIDTH // 2 + 125, 220)
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
